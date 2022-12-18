@@ -62,9 +62,6 @@ MainLayout.Position = UDim2.new(0, 633, 0, 344)
 MainLayout.Size = UDim2.new(0, 386, 0, 262)
 MainLayout.Visible = true
 MainLayout.Draggable = true
-
-
-
 Username.Name = "Username"
 Username.Parent = MainLayout
 Username.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -79,34 +76,27 @@ Username.TextScaled = true
 Username.TextSize = 14.000
 Username.TextWrapped = true
 Username.TextXAlignment = Enum.TextXAlignment.Left
-
 TopBAr.Name = "TopBAr"
 TopBAr.Parent = MainLayout
 TopBAr.BackgroundColor3 = Color3.fromRGB(74, 7, 118)
 TopBAr.BorderSizePixel = 0
 TopBAr.Position = UDim2.new(0, 7, 0, 6)
 TopBAr.Size = UDim2.new(0, 371, 0, 27)
-
 UICorner.Parent = TopBAr
-
 UserPip.Name = "UserPip"
 UserPip.Parent = MainLayout
 UserPip.BackgroundColor3 = Color3.fromRGB(74, 7, 118)
 UserPip.BorderSizePixel = 0
 UserPip.Position = UDim2.new(0, 203, 0, 45)
 UserPip.Size = UDim2.new(0, 90, 0, 83)
-
 UICorner_2.Parent = UserPip
-
 SideBar.Name = "SideBar"
 SideBar.Parent = MainLayout
 SideBar.BackgroundColor3 = Color3.fromRGB(74, 7, 118)
 SideBar.BorderSizePixel = 0
 SideBar.Position = UDim2.new(0, 7, 0, 45)
 SideBar.Size = UDim2.new(0, 116, 0, 202)
-
 UICorner_3.Parent = SideBar
-
 TextLabel.Parent = MainLayout
 TextLabel.AnchorPoint = Vector2.new(0.5, 0.5)
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -119,13 +109,10 @@ TextLabel.Text = "discord.gg/justsolo"
 TextLabel.TextColor3 = Color3.fromRGB(244, 244, 244)
 TextLabel.TextSize = 20.000
 TextLabel.TextWrapped = true
-
 UICorner_4.CornerRadius = UDim.new(0.0700000003, 0)
 UICorner_4.Parent = MainLayout
-
 UIAspectRatioConstraint.Parent = MainLayout
 UIAspectRatioConstraint.AspectRatio = 1.473
-
 Home.Name = "Home"
 Home.Parent = MainLayout
 Home.BackgroundColor3 = Color3.fromRGB(39, 4, 61)
@@ -136,7 +123,6 @@ Home.Font = Enum.Font.FredokaOne
 Home.Text = "Home"
 Home.TextColor3 = Color3.fromRGB(255, 255, 255)
 Home.TextSize = 14.000
-
 Locations.Name = "Locations"
 Locations.Parent = MainLayout
 Locations.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -148,7 +134,6 @@ Locations.Font = Enum.Font.FredokaOne
 Locations.Text = "Locations"
 Locations.TextColor3 = Color3.fromRGB(255, 255, 255)
 Locations.TextSize = 14.000
-
 Main.Name = "Main"
 Main.Parent = MainLayout
 Main.BackgroundColor3 = Color3.fromRGB(39, 4, 61)
@@ -159,7 +144,6 @@ Main.Font = Enum.Font.FredokaOne
 Main.Text = "Main"
 Main.TextColor3 = Color3.fromRGB(255, 255, 255)
 Main.TextSize = 14.000
-
 creds.Name = "creds"
 creds.Parent = MainLayout
 creds.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -171,7 +155,6 @@ creds.Font = Enum.Font.FredokaOne
 creds.Text = "Credits"
 creds.TextColor3 = Color3.fromRGB(255, 255, 255)
 creds.TextSize = 14.000
-
 Anims.Name = "Anims"
 Anims.Parent = MainLayout
 Anims.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -183,7 +166,6 @@ Anims.Font = Enum.Font.FredokaOne
 Anims.Text = "Animations"
 Anims.TextColor3 = Color3.fromRGB(255, 255, 255)
 Anims.TextSize = 14.000
-
 Logo.Name = "Logo"
 Logo.Parent = MainLayout
 Logo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -199,7 +181,6 @@ Logo.TextSize = 14.000
 Logo.TextTransparency = 0.620
 Logo.TextWrapped = true
 Logo.TextXAlignment = Enum.TextXAlignment.Left
-
 AnimationFrame.Name = "AnimationFrame"
 AnimationFrame.Parent = JustSoloGui
 AnimationFrame.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -208,11 +189,9 @@ AnimationFrame.BorderSizePixel = 0
 AnimationFrame.Position = UDim2.new(0, 892, 0, 487)
 AnimationFrame.Size = UDim2.new(0, 217, 0, 202)
 AnimationFrame.Visible = false
-
 UIListLayout.Parent = AnimationFrame
 UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
 UIListLayout.Padding = UDim.new(0, 7)
-
 idle.Name = "idle"
 idle.Parent = AnimationFrame
 idle.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -227,7 +206,6 @@ idle.TextColor3 = Color3.fromRGB(255, 255, 255)
 idle.TextScaled = true
 idle.TextSize = 30.000
 idle.TextWrapped = true
-
 walk.Name = "walk"
 walk.Parent = AnimationFrame
 walk.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -242,7 +220,6 @@ walk.TextColor3 = Color3.fromRGB(255, 255, 255)
 walk.TextScaled = true
 walk.TextSize = 30.000
 walk.TextWrapped = true
-
 run.Name = "run"
 run.Parent = AnimationFrame
 run.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -257,7 +234,6 @@ run.TextColor3 = Color3.fromRGB(255, 255, 255)
 run.TextScaled = true
 run.TextSize = 30.000
 run.TextWrapped = true
-
 zjump.Name = "zjump"
 zjump.Parent = AnimationFrame
 zjump.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -272,7 +248,6 @@ zjump.TextColor3 = Color3.fromRGB(255, 255, 255)
 zjump.TextScaled = true
 zjump.TextSize = 30.000
 zjump.TextWrapped = true
-
 zzfall.Name = "zzfall"
 zzfall.Parent = AnimationFrame
 zzfall.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -287,7 +262,6 @@ zzfall.TextColor3 = Color3.fromRGB(255, 255, 255)
 zzfall.TextScaled = true
 zzfall.TextSize = 30.000
 zzfall.TextWrapped = true
-
 MainFrame.Name = "MainFrame"
 MainFrame.Parent = JustSoloGui
 MainFrame.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -296,7 +270,6 @@ MainFrame.BorderSizePixel = 0
 MainFrame.Position = UDim2.new(0, 892, 0, 486)
 MainFrame.Size = UDim2.new(0, 217, 0, 202)
 MainFrame.Visible = false
-
 AntiGrab.Name = "Anti-Grab"
 AntiGrab.Parent = MainFrame
 AntiGrab.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -311,7 +284,6 @@ AntiGrab.TextColor3 = Color3.fromRGB(255, 255, 255)
 AntiGrab.TextScaled = true
 AntiGrab.TextSize = 30.000
 AntiGrab.TextWrapped = true
-
 AntiStomp.Name = "Anti-Stomp"
 AntiStomp.Parent = MainFrame
 AntiStomp.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -326,7 +298,6 @@ AntiStomp.TextColor3 = Color3.fromRGB(255, 255, 255)
 AntiStomp.TextScaled = true
 AntiStomp.TextSize = 30.000
 AntiStomp.TextWrapped = true
-
 CashAura.Name = "Cash Aura"
 CashAura.Parent = MainFrame
 CashAura.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -341,7 +312,6 @@ CashAura.TextColor3 = Color3.fromRGB(255, 255, 255)
 CashAura.TextScaled = true
 CashAura.TextSize = 30.000
 CashAura.TextWrapped = true
-
 AutoDrop.Name = "Auto Drop"
 AutoDrop.Parent = MainFrame
 AutoDrop.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -356,7 +326,6 @@ AutoDrop.TextColor3 = Color3.fromRGB(255, 255, 255)
 AutoDrop.TextScaled = true
 AutoDrop.TextSize = 30.000
 AutoDrop.TextWrapped = true
-
 AntiLag.Name = "Anti-Lag"
 AntiLag.Parent = MainFrame
 AntiLag.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -371,7 +340,6 @@ AntiLag.TextColor3 = Color3.fromRGB(255, 255, 255)
 AntiLag.TextScaled = true
 AntiLag.TextSize = 30.000
 AntiLag.TextWrapped = true
-
 Godmode.Name = "Godmode"
 Godmode.Parent = MainFrame
 Godmode.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -386,7 +354,6 @@ Godmode.TextColor3 = Color3.fromRGB(255, 255, 255)
 Godmode.TextScaled = true
 Godmode.TextSize = 30.000
 Godmode.TextWrapped = true
-
 FlyX.Name = "Fly (X)"
 FlyX.Parent = MainFrame
 FlyX.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -401,11 +368,9 @@ FlyX.TextColor3 = Color3.fromRGB(255, 255, 255)
 FlyX.TextScaled = true
 FlyX.TextSize = 30.000
 FlyX.TextWrapped = true
-
 UIListLayout_2.Parent = MainFrame
 UIListLayout_2.HorizontalAlignment = Enum.HorizontalAlignment.Center
 UIListLayout_2.Padding = UDim.new(0, 7)
-
 Invisible.Name = "Invisible"
 Invisible.Parent = MainFrame
 Invisible.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -420,7 +385,6 @@ Invisible.TextColor3 = Color3.fromRGB(255, 255, 255)
 Invisible.TextScaled = true
 Invisible.TextSize = 30.000
 Invisible.TextWrapped = true
-
 AntiAfk.Name = "Anti-Afk"
 AntiAfk.Parent = MainFrame
 AntiAfk.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -435,7 +399,6 @@ AntiAfk.TextColor3 = Color3.fromRGB(255, 255, 255)
 AntiAfk.TextScaled = true
 AntiAfk.TextSize = 30.000
 AntiAfk.TextWrapped = true
-
 LocationsFrame.Name = "LocationsFrame"
 LocationsFrame.Parent = JustSoloGui
 LocationsFrame.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -444,11 +407,9 @@ LocationsFrame.BorderSizePixel = 0
 LocationsFrame.Position = UDim2.new(0, 892, 0, 487)
 LocationsFrame.Size = UDim2.new(0, 217, 0, 202)
 LocationsFrame.Visible = false
-
 UIListLayout_3.Parent = LocationsFrame
 UIListLayout_3.HorizontalAlignment = Enum.HorizontalAlignment.Center
 UIListLayout_3.Padding = UDim.new(0, 7)
-
 casino.Name = "casino"
 casino.Parent = LocationsFrame
 casino.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -463,7 +424,6 @@ casino.TextColor3 = Color3.fromRGB(255, 255, 255)
 casino.TextScaled = true
 casino.TextSize = 30.000
 casino.TextWrapped = true
-
 Downhillguns.Name = "Downhill guns"
 Downhillguns.Parent = LocationsFrame
 Downhillguns.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -478,7 +438,6 @@ Downhillguns.TextColor3 = Color3.fromRGB(255, 255, 255)
 Downhillguns.TextScaled = true
 Downhillguns.TextSize = 30.000
 Downhillguns.TextWrapped = true
-
 bank.Name = "bank"
 bank.Parent = LocationsFrame
 bank.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -493,7 +452,6 @@ bank.TextColor3 = Color3.fromRGB(255, 255, 255)
 bank.TextScaled = true
 bank.TextSize = 30.000
 bank.TextWrapped = true
-
 HoodKicks.Name = "Hood Kicks"
 HoodKicks.Parent = LocationsFrame
 HoodKicks.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -508,7 +466,6 @@ HoodKicks.TextColor3 = Color3.fromRGB(255, 255, 255)
 HoodKicks.TextScaled = true
 HoodKicks.TextSize = 30.000
 HoodKicks.TextWrapped = true
-
 Uphillguns.Name = "Uphill guns"
 Uphillguns.Parent = LocationsFrame
 Uphillguns.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -523,7 +480,6 @@ Uphillguns.TextColor3 = Color3.fromRGB(255, 255, 255)
 Uphillguns.TextScaled = true
 Uphillguns.TextSize = 30.000
 Uphillguns.TextWrapped = true
-
 ufo.Name = "ufo"
 ufo.Parent = LocationsFrame
 ufo.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -538,7 +494,6 @@ ufo.TextColor3 = Color3.fromRGB(255, 255, 255)
 ufo.TextScaled = true
 ufo.TextSize = 30.000
 ufo.TextWrapped = true
-
 gym.Name = "gym"
 gym.Parent = LocationsFrame
 gym.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -553,7 +508,6 @@ gym.TextColor3 = Color3.fromRGB(255, 255, 255)
 gym.TextScaled = true
 gym.TextSize = 30.000
 gym.TextWrapped = true
-
 burgertaco.Name = "burger/taco"
 burgertaco.Parent = LocationsFrame
 burgertaco.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -568,7 +522,6 @@ burgertaco.TextColor3 = Color3.fromRGB(255, 255, 255)
 burgertaco.TextScaled = true
 burgertaco.TextSize = 30.000
 burgertaco.TextWrapped = true
-
 CreditsFrame.Name = "CreditsFrame"
 CreditsFrame.Parent = JustSoloGui
 CreditsFrame.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -577,11 +530,9 @@ CreditsFrame.BorderSizePixel = 0
 CreditsFrame.Position = UDim2.new(0, 892, 0, 487)
 CreditsFrame.Size = UDim2.new(0, 217, 0, 202)
 CreditsFrame.Visible = false
-
 UIListLayout_4.Parent = CreditsFrame
 UIListLayout_4.HorizontalAlignment = Enum.HorizontalAlignment.Center
 UIListLayout_4.Padding = UDim.new(0, 7)
-
 aaamax.Name = "aaamax"
 aaamax.Parent = CreditsFrame
 aaamax.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -596,7 +547,6 @@ aaamax.TextColor3 = Color3.fromRGB(255, 255, 255)
 aaamax.TextScaled = true
 aaamax.TextSize = 14.000
 aaamax.TextWrapped = true
-
 bbbdodger.Name = "bbbdodger"
 bbbdodger.Parent = CreditsFrame
 bbbdodger.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -611,7 +561,6 @@ bbbdodger.TextColor3 = Color3.fromRGB(255, 255, 255)
 bbbdodger.TextScaled = true
 bbbdodger.TextSize = 14.000
 bbbdodger.TextWrapped = true
-
 z.Name = "z"
 z.Parent = CreditsFrame
 z.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -626,18 +575,13 @@ z.TextColor3 = Color3.fromRGB(255, 255, 255)
 z.TextScaled = true
 z.TextSize = 14.000
 z.TextWrapped = true
-
--- Scripts:
-
-local function PJSZUWF_fake_script() -- MainLayout.PlayerNames 
+local function PJSZUWF_fake_script()
 	local script = Instance.new('LocalScript', MainLayout)
-
 	local plr = game.Players.LocalPlayer
-	
 	script.Parent.Username.Text = ""..plr.Name 
 end
 coroutine.wrap(PJSZUWF_fake_script)()
-local function OEZXP_fake_script() -- UserPip.LocalScript 
+local function OEZXP_fake_script() 
 	local script = Instance.new('LocalScript', UserPip)
 
 	local plr = game.Players.LocalPlayer
@@ -646,24 +590,20 @@ local function OEZXP_fake_script() -- UserPip.LocalScript
 	script.Parent.Image = img
 end
 coroutine.wrap(OEZXP_fake_script)()
-local function QYEGRJZ_fake_script() -- MainLayout.PlayerNamesv2 
+local function QYEGRJZ_fake_script()  
 	local script = Instance.new('LocalScript', MainLayout)
-
 	local plr = game.Players.LocalPlayer.DisplayName
-	
 	script.Parent.DisplayName.Text = ""..plr
 end
 coroutine.wrap(QYEGRJZ_fake_script)()
-local function NRECQZ_fake_script() -- MainLayout.LocalScript 
+local function NRECQZ_fake_script() 
 	local script = Instance.new('LocalScript', MainLayout)
-
 	print("Hello world!")
 	
 end
 coroutine.wrap(NRECQZ_fake_script)()
 local function CZIUU_fake_script() -- Home.LocalScript 
 	local script = Instance.new('LocalScript', Home)
-
 	script.Parent.MouseButton1Click:connect(function()
 		script.Parent.Parent.Parent.MainFrame.Visible = false
 		print("opened home closed others")
@@ -673,9 +613,8 @@ local function CZIUU_fake_script() -- Home.LocalScript
 	end)
 end
 coroutine.wrap(CZIUU_fake_script)()
-local function UNFM_fake_script() -- Locations.LocalScript 
+local function UNFM_fake_script() 
 	local script = Instance.new('LocalScript', Locations)
-
 	script.Parent.MouseButton1Click:connect(function()
 		script.Parent.Parent.Parent.LocationsFrame.Visible = true
 		script.Parent.Parent.Parent.LocationsFrame.Position = script.Parent.Parent.Parent.LocationsFrame.Position
@@ -686,9 +625,8 @@ local function UNFM_fake_script() -- Locations.LocalScript
 	end)
 end
 coroutine.wrap(UNFM_fake_script)()
-local function NILJIBP_fake_script() -- Main.LocalScript 
+local function NILJIBP_fake_script()
 	local script = Instance.new('LocalScript', Main)
-
 	script.Parent.MouseButton1Click:connect(function()
 		script.Parent.Parent.Parent.MainFrame.Visible = true
 		script.Parent.Parent.Parent.MainFrame.Position = script.Parent.Parent.Parent.MainFrame.Position
@@ -699,9 +637,8 @@ local function NILJIBP_fake_script() -- Main.LocalScript
 	end)
 end
 coroutine.wrap(NILJIBP_fake_script)()
-local function DJPX_fake_script() -- creds.LocalScript 
+local function DJPX_fake_script()
 	local script = Instance.new('LocalScript', creds)
-
 	script.Parent.MouseButton1Click:connect(function()
 		script.Parent.Parent.Parent.CreditsFrame.Visible = true
 		script.Parent.Parent.Parent.CreditsFrame.Position = script.Parent.Parent.Parent.CreditsFrame.Position
@@ -712,9 +649,8 @@ local function DJPX_fake_script() -- creds.LocalScript
 	end)
 end
 coroutine.wrap(DJPX_fake_script)()
-local function EAAQ_fake_script() -- Anims.LocalScript 
+local function EAAQ_fake_script() 
 	local script = Instance.new('LocalScript', Anims)
-
 	script.Parent.MouseButton1Click:connect(function()
 		script.Parent.Parent.Parent.AnimationFrame.Visible = true
 		script.Parent.Parent.Parent.AnimationFrame.Position = script.Parent.Parent.Parent.AnimationFrame.Position
